@@ -1,0 +1,260 @@
+    .header__nav{
+        height: 50px; 
+        background: #212121;
+    }
+
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        padding: 13px 70px;
+        margin: 0;
+        list-style: none ;
+    }
+
+    .menu__link{
+        color: #ffff;
+        font-size: 15px;
+        font-weight: 300;
+        text-decoration: none;
+    }
+
+    .menu__item{
+        border-right: 2px dotted black;
+        padding-right: 28px;
+    }
+
+    .subheader{
+        position: absolute;
+        width: 100%;
+        height: 84px;
+        background-color: rgba(0,0,0, .6);
+    }
+
+    .subheader__logo{
+        display: block;
+        max-width: 100%;
+        margin-top: 16px;
+    }
+
+    .subheader__official{
+        margin-top: 6px; 
+        opacity: 0.5;
+        color: #ffff;
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .subheader__call{
+        color: #ffff;
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 19px;
+        text-align: center;
+    }
+
+    .subheader__phone{
+        display: block;
+        margin-top: 8px;
+        color: #ffff;
+        font-size: 21px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 12px;
+    }
+
+    .subheader__btn{
+        margin-top: 19px;
+        width: 172px;
+        height: 46px;
+        background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+        box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    }
+
+    .promo{
+        min-height: 800px;
+        padding: 150px 0 135px 0;
+        background: url(../img/uber_bg.png) center center/cover no-repeat;
+    }
+
+    .promo__header{
+        color: #ffff;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 60px;
+        margin: 0;
+    }
+
+    .promo__subheader{
+        color: #ffff;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 36px;
+        margin: 0;
+        margin-top: 22px;
+    }
+
+    .promo__descr{
+        color: #FFFFFF;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 23px;
+    }
+
+    .promo__btn{
+        display: block;
+        margin: 118px auto 0 auto;
+        width: 259px;
+        height: 63px;
+        background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+        box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-size: 18px;
+        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    }
+
+    .about__work{
+        min-height: 767px;
+        padding: 17px 0 64px 0;
+        background: #FFFFFF;
+    }
+
+    .work__headline{
+        margin: 0 auto;
+        margin-top: 17px;
+        width: 115px;
+        height: 27px;
+        font-size: 11px;
+        background: #000000;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+    }
+
+    .benefits-8{
+        margin-top: 33px;
+        font-weight: bold;
+        font-size: 38px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #222222;
+    }
+
+    .work__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .work_item{
+        position: relative;
+        min-width: 116px;
+        height: 116px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 25px;
+        border-radius: 50%;
+        background: #1EACC7;
+    }
+
+    .work__img{
+        display: block;
+        max-width: 80px;
+        height: auto;
+    }
+
+    span{
+        display: block;
+        margin-top: 16px;
+        font-size: 17px;
+        color: #1EACC7;
+    }
+
+    .work__desc{
+        align-items: center;
+        justify-content: center;
+        font-weight: 300;
+        font-size: 15px;
+        color: #202020;
+    }
+
+    .mob__uber{
+        position: relative;
+        height: 864px;
+        padding: 46px 0 32px 0;
+        background: url(../img/mobile_bg.png) center center/cover no-repeat;
+    }
+
+    .mob__headline{
+        width: 115px;
+        height: 27px;
+        margin: 0 auto;
+        background: #000000;
+        font-size: 11px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .mob__subtxt{
+        font-weight: bold;
+        margin-top: 32px;
+        font-size: 38px;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        color: #222222;
+    }
+
+    .mob__subtxt-2{
+        align-items: center;
+        text-align: center;
+        font-weight: normal;
+        font-size: 17px;
+        color: #222222;
+    }
+
+    .mob__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;    
+    }
+
+    .mob__img{
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .text__img{
+        position: absolute;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-weight: normal;
+        font-size: 24px;
+    }
+
+    .mob__item{
+        display: block;
+        max-width: 29px;
+        height: auto;
+    }
+
+    .mob__plus{
+        border-radius: 50%;
+        background: #000000;
+    }
